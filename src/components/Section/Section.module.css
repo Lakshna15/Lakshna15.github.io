@@ -1,0 +1,46 @@
+.section {
+    padding: 6rem 2rem;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 1.5rem;
+}
+
+.cubeMarker {
+    width: 20px;
+    height: 20px;
+    background: var(--primary);
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px var(--primary);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--foreground);
+}
+
+.line {
+    height: 1px;
+    background: var(--grid-line);
+    flex-grow: 1;
+}
+
+.content {
+    font-size: 1.125rem;
+    color: #a0a0a0;
+    line-height: 1.8;
+}

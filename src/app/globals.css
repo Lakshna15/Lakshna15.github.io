@@ -1,0 +1,71 @@
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  
+  /* Primary Brand Colors - Deep Blue to Cyan gradients */
+  --primary: #0055ff;
+  --primary-light: #00aaff;
+  --primary-dark: #0033cc;
+  
+  /* Secondary/Accent Colors */
+  --accent: #00e5ff;
+  --accent-glow: rgba(0, 229, 255, 0.5);
+  
+  /* Surface Colors */
+  --surface: #111111;
+  --surface-hover: #1a1a1a;
+  
+  /* Grid/Cube Colors */
+  --grid-line: rgba(255, 255, 255, 0.1);
+  --cube-face: rgba(0, 85, 255, 0.1);
+  --cube-border: rgba(0, 85, 255, 0.3);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  /* Spacing */
+  --gap-sm: 0.5rem;
+  --gap-md: 1rem;
+  --gap-lg: 2rem;
+  --gap-xl: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-dark);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
