@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lakshna Dhanaraj | Software Engineer Portfolio",
+  title: "Lakshna Portfolio",
   description: "Software Engineer & IT Graduate Student Portfolio",
   openGraph: {
     title: "Lakshna Dhanaraj | Software Engineer",
