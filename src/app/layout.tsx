@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lakshna Dhanaraj | Software Engineer",
     description: "Software Engineer and IT graduate student. Explore my projects, skills, and experience.",
-    url: "https://lakshna-portfolio.vercel.app",
+    url: "https://Lakshna15.github.io",
     siteName: "Lakshna's Portfolio",
     images: [
       {
-        url: "https://lakshna-portfolio.vercel.app/og-image.png",
+        url: "https://Lakshna15.github.io/og-image.png",
         width: 1024,
         height: 1024,
         alt: "Portfolio Preview",
