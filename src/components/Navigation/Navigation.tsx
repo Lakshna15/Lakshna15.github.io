@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Home, User, Briefcase, Code, Mail, Box } from "lucide-react";
+import { Home, User, Briefcase, Code, Mail, Box, BookOpen } from "lucide-react";
 import { clsx } from "clsx";
 import styles from "./Navigation.module.css";
 
@@ -12,6 +12,7 @@ const navItems = [
     { name: "Experience", href: "/#experience", icon: Briefcase },
     { name: "Projects", href: "/#projects", icon: Code },
     { name: "Skills", href: "/#skills", icon: Box },
+    { name: "Case Study", href: "/case-study", icon: BookOpen },
 ];
 
 export default function Navigation() {

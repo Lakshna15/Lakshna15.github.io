@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Hero from "@/components/Hero/Hero";
 import CubeGrid from "@/components/CubeGrid/CubeGrid";
 import Section from "@/components/Section/Section";
@@ -72,6 +73,19 @@ export default function Home() {
       </Section>
 
       <Section id="projects" title="Projects">
+        {/* Featured Case Study */}
+        <div className={styles.featuredCaseStudy}>
+          <div className={styles.featuredBadge}>📖 Featured Case Study</div>
+          <h3 className={styles.featuredTitle}>EECS Department Website Redesign</h3>
+          <p className={styles.featuredDesc}>
+            A full UX redesign of UC Berkeley&apos;s EECS department site — from heuristic critique through user testing with 3 participants, to a mobile-first final build achieving 100% task completion.
+          </p>
+          <div className={styles.featuredTags}>
+            <span>UX Design</span><span>User Testing</span><span>HTML/CSS/JS</span><span>Mobile-First</span>
+          </div>
+          <Link href="/case-study" className={styles.featuredLink}>Read the Case Study →</Link>
+        </div>
+
         <div className={styles.threeColGrid}>
           <ProjectCard
             title="Annotation Tool"
